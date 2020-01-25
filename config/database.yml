@@ -1,0 +1,17 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  port: 54321
+
+development:
+  <<: *default
+  database: health_tracker_development
+
+test:
+  <<: *default
+  database: health_tracker_test
+
+production:
+  <<: *default
+  database: health_tracker_production
