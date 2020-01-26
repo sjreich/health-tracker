@@ -1,0 +1,21 @@
+AllCops:
+  Exclude:
+    - bin/**/*
+    - db/**/*
+    - vendor/**/*
+
+Style/Documentation:
+  Enabled: false
+
+Style/TrailingCommaInLiteral:
+  Enabled: false
+
+Style/RegexpLiteral:
+  Enabled: false
+
+Style/WordArray:
+  Enabled: false
+
+Metrics/LineLength:
+  Exclude:
+    - config/**/*
