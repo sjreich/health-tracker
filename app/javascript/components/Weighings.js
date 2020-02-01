@@ -22,7 +22,7 @@ class Weighings extends React.Component {
 
   render() {
     return(
-      <dl className='collection'>
+      <dl>
         {
           this.state.weighings.map(weighing =>
             <React.Fragment key={weighing.id}>

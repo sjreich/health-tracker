@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'haml-rails'
 gem 'jquery-rails'
+gem 'materialize-sass'
 gem 'pg'
 gem 'rails', '~> 5.1'
 gem 'react-rails'
